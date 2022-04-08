@@ -3,6 +3,14 @@
 /* body */
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
 
+body{
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../assets/images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
