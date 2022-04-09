@@ -1,7 +1,7 @@
 /* heading */
-@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
 /* body */
-@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root{
   --Violet: hsl(257, 40%, 49%);
@@ -21,7 +21,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 
-  font-family: Merienda, Helvetica, sans-serif;
 }
 
 header{
@@ -49,8 +48,8 @@ main{
 
 .img-div-main{
   max-width: 800px;
-  margin-top: 20px;
-  margin-left: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
 }
 
 .img-div-main img{
@@ -61,19 +60,28 @@ main{
   max-width: 640px;
   display: flex;
   flex-direction: column;
+  padding-left: 40px;
 
   color: #FFF;
 }
 
 .text-div-main h2{
-  margin-left: 20px;
-}
-
-.text-div-main p{
-  margin-left: 20px;
   text-align: left;
   max-width: 400px;
 
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  
+}
+
+.text-div-main p{
+  text-align: left;
+  max-width: 400px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 
