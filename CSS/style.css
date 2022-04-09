@@ -3,20 +3,80 @@
 /* body */
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
 
+:root{
+  --Violet: hsl(257, 40%, 49%);
+  --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 body{
-  background-color: hsl(257, 40%, 49%);
+  background-color: var(--Violet);
   background-image: url("../assets/images/bg-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
 
-  padding: 0;
-  margin: 0;
+  font-family: Merienda, Helvetica, sans-serif;
 }
 
 header{
-  background-color: red;
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
+  flex-direction: row;
 }
+
+.logo-header{
+  max-width: 200px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.img-div-main{
+  max-width: 800px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.img-div-main img{
+  max-width: 100%;
+}
+
+.text-div-main{
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+
+  color: #FFF;
+}
+
+.text-div-main h2{
+  margin-left: 20px;
+}
+
+.text-div-main p{
+  margin-left: 20px;
+  text-align: left;
+  max-width: 400px;
+
+}
+
+
 
 
 .attribution {
