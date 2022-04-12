@@ -32,8 +32,9 @@ header{
 
 .logo-header{
   max-width: 200px;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 main{
@@ -48,9 +49,8 @@ main{
 }
 
 .img-div-main{
+  display: flex;
   max-width: 800px;
-  padding-top: 40px;
-  padding-left: 40px;
 }
 
 .img-div-main img{
@@ -72,24 +72,28 @@ main{
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
   font-weight: 600;
-  
+
+  margin-bottom: 30px;
 }
 
 .text-div-main p{
-  text-align: left;
+  text-align: justify;
   max-width: 500px;
 
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
+
+  margin-bottom: 30px;
 }
 
 .btn-register{
   width: 150px;
-  padding: 12px;
+  padding: 15px;
   border-radius: 20px;
   border: none;
   background-color: #FFF;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.4);
 
   color: var(--Violet);
 }
