@@ -98,6 +98,12 @@ main{
   color: var(--Violet);
 }
 
+.social-div-main{
+  width: 1440px;
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 footer{
   display: flex;
