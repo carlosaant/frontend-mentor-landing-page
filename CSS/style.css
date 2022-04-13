@@ -98,6 +98,11 @@ main{
   color: var(--Violet);
 }
 
+.btn-register:hover{
+  color: #FFF;
+  background-color: #FF52C1;
+}
+
 .social-div-main{
   width: 1440px;
   display: flex;
