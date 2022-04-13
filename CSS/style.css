@@ -151,3 +151,57 @@ footer{
   text-decoration: none;
   color: hsl(228, 36%, 59%);
 }
+
+
+@media (max-width: 600px){
+  body{
+    background-color: var(--Violet);
+    background-image: url("../assets/images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header{
+    width: 100%;
+  }
+
+  .logo-header{
+    max-width: 50%;
+  }
+
+  .img-div-main{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+  }
+  
+  .img-div-main img{
+    max-width: 80%;
+  }
+
+  .text-div-main{
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .text-div-main h2{
+    padding: 10px;
+    text-align: center;
+  }
+  .text-div-main p{
+    padding: 10px;
+    text-align: center;
+  }
+
+  .social-div-main{
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+}
