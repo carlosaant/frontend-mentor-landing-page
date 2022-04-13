@@ -13,10 +13,10 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop Version
+Desktop Version <br>
 ![desktop-resolved-Frontend-Mentor-Huddle](https://user-images.githubusercontent.com/42329793/163195072-759f095f-d577-4042-98d8-f702913607b1.png)
 
-Mobile Version
+Mobile Version <br>
 ![mobile-resolved-Frontend-Mentor-Huddle](https://user-images.githubusercontent.com/42329793/163195458-8fceb50e-380c-4005-9a14-a5a8b9683732.png)
 
 
