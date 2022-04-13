@@ -180,6 +180,7 @@ footer{
   }
 
   .text-div-main{
+    margin-top: 50px;
     max-width: 100%;
     align-items: center;
   }
@@ -189,7 +190,7 @@ footer{
     text-align: center;
   }
   .text-div-main p{
-    padding: 10px;
+    padding: 20px;
     text-align: center;
   }
 
